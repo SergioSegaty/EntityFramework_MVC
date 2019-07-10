@@ -27,6 +27,8 @@ namespace View.DAL
 
             types.ForEach(t => context.Types.Add(t));
             context.SaveChanges();
+
+
         }
     }
 }
