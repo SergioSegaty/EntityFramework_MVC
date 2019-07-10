@@ -9,6 +9,8 @@ namespace View.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+
         public int TypeId { get; set; }
+        public Type Type { get; set; }
     }
 }
